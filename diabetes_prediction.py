@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 
 
 #importing  the dataset.
-dataset = pd.read_csv("C:/Users/Sarvesh A Behare/Desktop/NITD/mentor/dataset/diabetes_prediction_dataset.csv")
+dataset = pd.read_csv("diabetes_prediction_dataset.csv")
 
 #printing few starting data of dataset.
 print("\nDataset: \n",dataset.head())
